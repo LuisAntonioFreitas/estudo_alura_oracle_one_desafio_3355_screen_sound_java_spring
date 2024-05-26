@@ -87,7 +87,7 @@ $ npm start
 
 ---
 
-## 🏅 Desafio<a id="desafio"></a>
+## 🏅 Desafio<a id="desafio"></a> 
 
 * Você precisará de uma classe Artista, com os dados para representar o mesmo;
 * Será necessário também uma classe específica para representar as músicas;

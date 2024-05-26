@@ -1,0 +1,13 @@
+# Spring Boot configuration
+spring:
+  application:
+    name: screensound
+  profiles:
+    active: ${APP_PROFILE:dev}
+ai:
+  gemini:
+    project-id: ${AI_GEMINI_PROJECT_ID}
+    location: ${AI_GEMINI_LOCATION}
+    model-name: ${AI_GEMINI_MODEL_NAME}
+  openai:
+    api-key: ${AI_OPENAI_API_KEY}
